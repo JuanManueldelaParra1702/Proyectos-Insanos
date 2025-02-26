@@ -1,8 +1,8 @@
 import random
 
-chars = "abcdefghijklmnñopqrstuvwxyzABCDEFGHIJKLMNÑOPQRSTUVWXYZ1234567890!@#$%^&*()_+-=[]{}|;:,.<>?`~"
+chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890!@#$%^&*()_+-=[]{}|;:,.<>?`~"
 
 password = ""
-for i in range (16):
+for i in range (60):
     password += random.choice(chars)
 print(f"Your password is: {password}")    
